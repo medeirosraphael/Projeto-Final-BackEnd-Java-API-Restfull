@@ -32,6 +32,24 @@ locacaoCliente
 imagemCliente
 idadeCliente
 
+IdCliente
+NomeCliente
+CnhCliente
+TelefoneCliente
+EndereçoCliente
+LocacaoCliente
+ImagemCliente
+IdadeCliente
+
+IdVeiculo
+PlacaVeiculo
+ModeloVeiculo
+AnoVeiculo
+MontadoraVeiculo
+StatusVeiculo
+ImagemVeiculo
+CategoriaVeiculo
+
 ------------------------------------------
 //Classe  Veiculo
 Atributos:
