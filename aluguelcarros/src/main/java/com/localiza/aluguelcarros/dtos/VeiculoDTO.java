@@ -1,63 +1,65 @@
 package com.localiza.aluguelcarros.dtos;
 
 public class VeiculoDTO {
+	
+	private Long idVeiculo;
+	private String placaVeiculo;
+	private String modeloVeiculo;
+	private String anoVeiculo;
+	private String montadoraVeiculo;
+	private String statusVeiculo;
+	private String imagemVeiculo;
+	private String categoriaVeiculo;
+	
+	public Long getIdVeiculo() {
+		return idVeiculo;
+	}
+	public void setIdVeiculo(Long idVeiculo) {
+		this.idVeiculo = idVeiculo;
+	}
+	public String getPlacaVeiculo() {
+		return placaVeiculo;
+	}
+	public void setPlacaVeiculo(String placaVeiculo) {
+		this.placaVeiculo = placaVeiculo;
+	}
+	public String getModeloVeiculo() {
+		return modeloVeiculo;
+	}
+	public void setModeloVeiculo(String modeloVeiculo) {
+		this.modeloVeiculo = modeloVeiculo;
+	}
+	public String getAnoVeiculo() {
+		return anoVeiculo;
+	}
+	public void setAnoVeiculo(String anoVeiculo) {
+		this.anoVeiculo = anoVeiculo;
+	}
+	public String getMontadoraVeiculo() {
+		return montadoraVeiculo;
+	}
+	public void setMontadoraVeiculo(String montadoraVeiculo) {
+		this.montadoraVeiculo = montadoraVeiculo;
+	}
+	public String getStatusVeiculo() {
+		return statusVeiculo;
+	}
+	public void setStatusVeiculo(String statusVeiculo) {
+		this.statusVeiculo = statusVeiculo;
+	}
+	public String getImagemVeiculo() {
+		return imagemVeiculo;
+	}
+	public void setImagemVeiculo(String imagemVeiculo) {
+		this.imagemVeiculo = imagemVeiculo;
+	}
+	public String getCategoriaVeiculo() {
+		return categoriaVeiculo;
+	}
+	public void setCategoriaVeiculo(String categoriaVeiculo) {
+		this.categoriaVeiculo = categoriaVeiculo;
+	}
+	
+	
 
-	private Long idDTO;
-	private String placaDTO;
-	private String modeloDTO;
-	private String anoDTO;
-	private String montadoraDTO;
-	private String statusDTO;
-	private String imagemDTO;
-	private String categoriaDTO;
-	
-	public Long getIdDTO() {
-		return idDTO;
-	}
-	public void setIdDTO(Long idDTO) {
-		this.idDTO = idDTO;
-	}
-	public String getPlacaDTO() {
-		return placaDTO;
-	}
-	public void setPlacaDTO(String placaDTO) {
-		this.placaDTO = placaDTO;
-	}
-	public String getModeloDTO() {
-		return modeloDTO;
-	}
-	public void setModeloDTO(String modeloDTO) {
-		this.modeloDTO = modeloDTO;
-	}
-	public String getAnoDTO() {
-		return anoDTO;
-	}
-	public void setAnoDTO(String anoDTO) {
-		this.anoDTO = anoDTO;
-	}
-	public String getMontadoraDTO() {
-		return montadoraDTO;
-	}
-	public void setMontadoraDTO(String montadoraDTO) {
-		this.montadoraDTO = montadoraDTO;
-	}
-	public String getStatusDTO() {
-		return statusDTO;
-	}
-	public void setStatusDTO(String statusDTO) {
-		this.statusDTO = statusDTO;
-	}
-	public String getImagemDTO() {
-		return imagemDTO;
-	}
-	public void setImagemDTO(String imagemDTO) {
-		this.imagemDTO = imagemDTO;
-	}
-	public String getCategoriaDTO() {
-		return categoriaDTO;
-	}
-	public void setCategoriaDTO(String categoriaDTO) {
-		this.categoriaDTO = categoriaDTO;
-	}
-	
 }

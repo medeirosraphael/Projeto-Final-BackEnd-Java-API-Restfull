@@ -1,63 +1,65 @@
 package com.localiza.aluguelcarros.dtos;
 
 public class ClienteDTO {
+	
+	private Long idCliente;
+	private String nomeCliente;
+	private String cnhCliente;
+	private String telefoneCliente;
+	private String endereçoCliente;
+	private String locacaoCliente;
+	private String imagemCliente;
+	private Integer idadeCliente;
+	
+	public Long getIdCliente() {
+		return idCliente;
+	}
+	public void setIdCliente(Long idCliente) {
+		this.idCliente = idCliente;
+	}
+	public String getNomeCliente() {
+		return nomeCliente;
+	}
+	public void setNomeCliente(String nomeCliente) {
+		this.nomeCliente = nomeCliente;
+	}
+	public String getCnhCliente() {
+		return cnhCliente;
+	}
+	public void setCnhCliente(String cnhCliente) {
+		this.cnhCliente = cnhCliente;
+	}
+	public String getTelefoneCliente() {
+		return telefoneCliente;
+	}
+	public void setTelefoneCliente(String telefoneCliente) {
+		this.telefoneCliente = telefoneCliente;
+	}
+	public String getEndereçoCliente() {
+		return endereçoCliente;
+	}
+	public void setEndereçoCliente(String endereçoCliente) {
+		this.endereçoCliente = endereçoCliente;
+	}
+	public String getLocacaoCliente() {
+		return locacaoCliente;
+	}
+	public void setLocacaoCliente(String locacaoCliente) {
+		this.locacaoCliente = locacaoCliente;
+	}
+	public String getImagemCliente() {
+		return imagemCliente;
+	}
+	public void setImagemCliente(String imagemCliente) {
+		this.imagemCliente = imagemCliente;
+	}
+	public Integer getIdadeCliente() {
+		return idadeCliente;
+	}
+	public void setIdadeCliente(Integer idadeCliente) {
+		this.idadeCliente = idadeCliente;
+	}
+	
 
-	private Long idDTO;
-	private String nomeDTO;
-	private String cnhDTO;
-	private String telefoneDTO;
-	private String endereçoDTO;
-	private String locacaoDTO;
-	private String imagemDTO;
-	private Integer idadeDTO;
-	
-	public Long getIdDTO() {
-		return idDTO;
-	}
-	public void setIdDTO(Long idDTO) {
-		this.idDTO = idDTO;
-	}
-	public String getNomeDTO() {
-		return nomeDTO;
-	}
-	public void setNomeDTO(String nomeDTO) {
-		this.nomeDTO = nomeDTO;
-	}
-	public String getCnhDTO() {
-		return cnhDTO;
-	}
-	public void setCnhDTO(String cnhDTO) {
-		this.cnhDTO = cnhDTO;
-	}
-	public String getTelefoneDTO() {
-		return telefoneDTO;
-	}
-	public void setTelefoneDTO(String telefoneDTO) {
-		this.telefoneDTO = telefoneDTO;
-	}
-	public String getEndereçoDTO() {
-		return endereçoDTO;
-	}
-	public void setEndereçoDTO(String endereçoDTO) {
-		this.endereçoDTO = endereçoDTO;
-	}
-	public String getLocacaoDTO() {
-		return locacaoDTO;
-	}
-	public void setLocacaoDTO(String locacaoDTO) {
-		this.locacaoDTO = locacaoDTO;
-	}
-	public String getImagemDTO() {
-		return imagemDTO;
-	}
-	public void setImagemDTO(String imagemDTO) {
-		this.imagemDTO = imagemDTO;
-	}
-	public Integer getIdadeDTO() {
-		return idadeDTO;
-	}
-	public void setIdadeDTO(Integer idadeDTO) {
-		this.idadeDTO = idadeDTO;
-	}
-	
+
 }

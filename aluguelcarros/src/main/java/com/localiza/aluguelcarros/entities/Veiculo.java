@@ -1,14 +1,30 @@
 package com.localiza.aluguelcarros.entities;
 
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+
+@Entity
 public class Veiculo {
 	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
+	@Column(name = "placa", length = 8, nullable = false)
 	private String placa;
+	@Column(name = "modelo", length = 50, nullable = false)
 	private String modelo;
+	@Column(name = "ano", length = 5, nullable = false)
 	private String ano;
+	@Column(name = "montadora", length = 50, nullable = false)
 	private String montadora;
+	@Column(name = "status", length = 20, nullable = false)
 	private String status;
+	@Column(name = "imagem", length = 50, nullable = false)
 	private String imagem;
+	@Column(name = "categoria", length = 60, nullable = false)
 	private String categoria;
 	
 	public Long getId() {
@@ -59,6 +75,5 @@ public class Veiculo {
 	public void setCategoria(String categoria) {
 		this.categoria = categoria;
 	}
-		
 
 }

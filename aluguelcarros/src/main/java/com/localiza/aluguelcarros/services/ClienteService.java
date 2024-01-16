@@ -8,6 +8,9 @@ import org.springframework.stereotype.Service;
 
 import com.localiza.aluguelcarros.dtos.ClienteDTO;
 import com.localiza.aluguelcarros.entities.Cliente;
+import com.localiza.aluguelcarros.enums.MensagemEnum;
+import com.localiza.aluguelcarros.reports.ClienteReport;
+import com.localiza.aluguelcarros.reports.DadosClienteReport;
 import com.localiza.aluguelcarros.repositories.ClienteRepository;
 
 @Service
@@ -60,7 +63,7 @@ public class ClienteService {
     }
     
     public byte[] gerarRelatorio(Long id) {
-    	return new DadosClienterReport(buscarPorId(id)).createPDF();
+    	return new DadosClienteReport(buscarPorId(id)).createPDF();
     }
     
     public ClienteDTO buscarPorId (Long id) {
@@ -76,9 +79,5 @@ public class ClienteService {
 		clienteDTO.setIdadeCliente(cliente.getIdade());
     	return clienteDTO;
     }
+
 }
-    	
-    	
-    	
-    	
-    	

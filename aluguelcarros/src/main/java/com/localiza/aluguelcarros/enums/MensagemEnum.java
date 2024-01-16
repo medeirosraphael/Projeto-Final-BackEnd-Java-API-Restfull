@@ -16,5 +16,4 @@ public enum MensagemEnum {
 	public String getDescricao() {
 		return this.descricao;
 	}
-
 }
