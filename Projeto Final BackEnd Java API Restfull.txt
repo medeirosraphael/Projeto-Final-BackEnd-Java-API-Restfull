@@ -102,15 +102,17 @@ ClienteService (class)
 VeiculoService (class)
 
 .controllers (Package)
-Cliente (class)
-Veiculo (class)
+ClienteController (class)
+VeiculoController (class)
 
 .enums (Package)
 MensagemEnum (enum)
 
 .reports (Package)
-DadosFornecedorReport (class)
-FornecedorReport (class)
+DadosClienteReport (class)
+ClienteReport (class)
+DadosVeiculoReport (class)
+VeiculoReport (class)
 
 .config (Package)
 OpenApiConfig (class)
@@ -137,7 +139,7 @@ OpenApiConfig (class)
   "telefoneCliente": "(21)99258-8135",
   "endereçoCliente": "Rua Vinicius de Moraes, 812",
   "locacaoCliente": false,
-  "imagemCliente": "cliente-2.jpg"
+  "imagemCliente": "cliente-2.jpg",
   "idadeCliente": 38
 }
 {
@@ -147,7 +149,7 @@ OpenApiConfig (class)
   "telefoneCliente": "(21)99520-1854",
   "endereçoCliente": "Rua Conselheiro, 709",
   "locacaoCliente": false,
-  "imagemCliente": "cliente-3.jpg"
+  "imagemCliente": "cliente-3.jpg",
   "idadeCliente": 29
 }
 {
@@ -157,7 +159,7 @@ OpenApiConfig (class)
   "telefoneCliente": "(21)99737-8109",
   "endereçoCliente": "Rua Oscar Freire, 1744",
   "locacaoCliente": true,
-  "imagemCliente": "cliente-4.jpg"
+  "imagemCliente": "cliente-4.jpg",
   "idadeCliente": 26
 }
 {
@@ -167,7 +169,7 @@ OpenApiConfig (class)
   "telefoneCliente": "(21)99658-1285",
   "endereçoCliente": "Rua Guilherme Bulhões, 170",
   "locacaoCliente": true,
-  "imagemCliente": "cliente-5.jpg"
+  "imagemCliente": "cliente-5.jpg",
   "idadeCliente": 20
 }
 
@@ -192,7 +194,7 @@ OpenApiConfig (class)
   "anoVeiculo": "2023",
   "montadoraVeiculo": "Chevrolet",
   "statusVeiculo": "disponivel",
-  "imagemVeiculo": "veiculo-2.png"
+  "imagemVeiculo": "veiculo-2.png",
   "categoriaVeiculo": "Sedan Intermediario"
 }
 {
@@ -202,7 +204,7 @@ OpenApiConfig (class)
   "anoVeiculo": "2023",
   "montadoraVeiculo": "Jeep",
   "statusVeiculo": "disponivel",
-  "imagemVeiculo": "veiculo-3.png"
+  "imagemVeiculo": "veiculo-3.png",
   "categoriaVeiculo": "SUV Especial"
 }
 {
@@ -212,7 +214,7 @@ OpenApiConfig (class)
   "anoVeiculo": "2023",
   "montadoraVeiculo": "Build Your Dreams",
   "statusVeiculo": "disponivel",
-  "imagemVeiculo": "veiculo-4.png"
+  "imagemVeiculo": "veiculo-4.png",
   "categoriaVeiculo": "Eletrico Compacto"
 }
 {
@@ -222,6 +224,6 @@ OpenApiConfig (class)
   "anoVeiculo": "2023",
   "montadoraVeiculo": "Nissan",
   "statusVeiculo": "disponivel",
-  "imagemVeiculo": "veiculo-5.png"
+  "imagemVeiculo": "veiculo-5.png",
   "categoriaVeiculo": "SUV Compacto"
 }

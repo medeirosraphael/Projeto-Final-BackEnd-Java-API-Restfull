@@ -43,12 +43,14 @@ private List<VeiculoDTO> lista;
 			documento.add(logo);*/
 			
 			Paragraph titulo = new Paragraph();
-			Phrase phrase = new Phrase("Relatório de Clientes", FONT_TITULO);
+			Phrase phrase = new Phrase("Relatório de Veiculos", FONT_TITULO);
 			titulo.add(phrase);
 			titulo.setAlignment(Element.ALIGN_CENTER);
 			titulo.setSpacingAfter(20);
 			
 			documento.add(titulo);
+			
+			
 			
 			for(VeiculoDTO veiculoDTO: lista) {
 				Paragraph dados = new Paragraph();
