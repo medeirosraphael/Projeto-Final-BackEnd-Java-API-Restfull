@@ -7,7 +7,7 @@ public class VeiculoDTO {
 	private String modeloVeiculo;
 	private String anoVeiculo;
 	private String montadoraVeiculo;
-	private String statusVeiculo;
+	private String locacaoVeiculo;
 	private String imagemVeiculo;
 	private String categoriaVeiculo;
 	
@@ -41,11 +41,11 @@ public class VeiculoDTO {
 	public void setMontadoraVeiculo(String montadoraVeiculo) {
 		this.montadoraVeiculo = montadoraVeiculo;
 	}
-	public String getStatusVeiculo() {
-		return statusVeiculo;
+	public String getLocacaoVeiculo() {
+		return locacaoVeiculo;
 	}
-	public void setStatusVeiculo(String statusVeiculo) {
-		this.statusVeiculo = statusVeiculo;
+	public void setLocacaoVeiculo(String locacaoVeiculo) {
+		this.locacaoVeiculo = locacaoVeiculo;
 	}
 	public String getImagemVeiculo() {
 		return imagemVeiculo;
@@ -59,7 +59,6 @@ public class VeiculoDTO {
 	public void setCategoriaVeiculo(String categoriaVeiculo) {
 		this.categoriaVeiculo = categoriaVeiculo;
 	}
-	
 	
 
 }

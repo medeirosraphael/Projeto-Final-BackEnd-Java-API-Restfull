@@ -1,23 +1,19 @@
-package com.localiza.aluguelcarros.reports;
+<dependency>
+	<groupId>com.itextpdf</groupId>
+	<artifactId>kernel</artifactId>
+	<version>7.2.6</version>
+</dependency>
+<!-- Thanks for using https://jar-download.com -->
 
-import java.io.ByteArrayOutputStream;
+<dependency>
+	<groupId>com.itextpdf</groupId>
+	<artifactId>layout</artifactId>
+	<version>7.1.1</version>
+</dependency>
+<!-- Thanks for using https://jar-download.com -->
 
-import org.apache.commons.io.IOUtils;
 
-import com.itextpdf.text.Document;
-import com.itextpdf.text.Element;
-import com.itextpdf.text.Font;
-import com.itextpdf.text.Image;
-import com.itextpdf.text.PageSize;
-import com.itextpdf.text.Paragraph;
-import com.itextpdf.text.pdf.PdfWriter;
-import com.localiza.aluguelcarros.dtos.ClienteDTO;
-
-public class DadosClienteReport {
-	
-private ClienteDTO clienteDTO;
-	
-	private static Font FONT_TITULO = new Font(Font.FontFamily.TIMES_ROMAN, 25, Font.BOLD);
+/*private static Font FONT_TITULO = new Font(Font.FontFamily.TIMES_ROMAN, 25, Font.BOLD);
 	
 	public DadosClienteReport(ClienteDTO clienteDTO) {
 		this.clienteDTO = clienteDTO;
@@ -60,6 +56,4 @@ private ClienteDTO clienteDTO;
 			e.printStackTrace();
 		}
 		return null;
-	}
-
-}
+	}*/

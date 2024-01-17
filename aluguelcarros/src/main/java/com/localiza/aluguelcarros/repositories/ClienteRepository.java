@@ -1,9 +1,11 @@
 package com.localiza.aluguelcarros.repositories;
 
-import org.springframework.data.jpa.repository.support.JpaRepositoryImplementation;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
 import com.localiza.aluguelcarros.entities.Cliente;
 
-public interface ClienteRepository extends JpaRepositoryImplementation<Cliente, Long>{
+@Repository
+public interface ClienteRepository extends JpaRepository<Cliente, Long>{
 
 }

@@ -57,7 +57,6 @@ private List<ClienteDTO> lista;
 				dados.add("CNH do Cliente: "+clienteDTO.getCnhCliente() + "\n");
 				dados.add("Telefone do Cliente: "+clienteDTO.getTelefoneCliente() + "\n");
 				dados.add("Endereço do Cliente: "+clienteDTO.getEndereçoCliente() + "\n");
-				dados.add("Status da Locação: "+clienteDTO.getLocacaoCliente() + "\n");
 				dados.add("Idade do Cliente: "+clienteDTO.getIdadeCliente() + "\n");
 				dados.setSpacingAfter(5);
 				documento.add(dados);

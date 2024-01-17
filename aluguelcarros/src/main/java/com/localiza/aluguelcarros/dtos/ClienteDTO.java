@@ -7,9 +7,9 @@ public class ClienteDTO {
 	private String cnhCliente;
 	private String telefoneCliente;
 	private String endereçoCliente;
-	private String locacaoCliente;
 	private String imagemCliente;
 	private Integer idadeCliente;
+	
 	
 	public Long getIdCliente() {
 		return idCliente;
@@ -41,12 +41,6 @@ public class ClienteDTO {
 	public void setEndereçoCliente(String endereçoCliente) {
 		this.endereçoCliente = endereçoCliente;
 	}
-	public String getLocacaoCliente() {
-		return locacaoCliente;
-	}
-	public void setLocacaoCliente(String locacaoCliente) {
-		this.locacaoCliente = locacaoCliente;
-	}
 	public String getImagemCliente() {
 		return imagemCliente;
 	}
@@ -60,6 +54,5 @@ public class ClienteDTO {
 		this.idadeCliente = idadeCliente;
 	}
 	
-
-
+	
 }

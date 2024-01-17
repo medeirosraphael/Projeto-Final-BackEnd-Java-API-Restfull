@@ -26,7 +26,6 @@ public class ClienteService {
 		cliente.setCnh(clienteDTO.getCnhCliente());
 		cliente.setTelefone(clienteDTO.getTelefoneCliente());
 		cliente.setEndereço(clienteDTO.getEndereçoCliente());
-		cliente.setLocacao(clienteDTO.getLocacaoCliente());
 		cliente.setImagem(clienteDTO.getImagemCliente());
 		cliente.setIdade(clienteDTO.getIdadeCliente());
 		clienteRepository.save(cliente);		
@@ -42,7 +41,6 @@ public class ClienteService {
 			clienteDTO.setCnhCliente(cliente.getCnh());
 			clienteDTO.setTelefoneCliente(cliente.getTelefone());
 			clienteDTO.setEndereçoCliente(cliente.getEndereço());
-			clienteDTO.setLocacaoCliente(cliente.getLocacao());
 			clienteDTO.setImagemCliente(cliente.getImagem());
 			clienteDTO.setIdadeCliente(cliente.getIdade());
 			listaDTO.add(clienteDTO);
@@ -74,7 +72,6 @@ public class ClienteService {
 		clienteDTO.setCnhCliente(cliente.getCnh());
 		clienteDTO.setTelefoneCliente(cliente.getTelefone());
 		clienteDTO.setEndereçoCliente(cliente.getEndereço());
-		clienteDTO.setLocacaoCliente(cliente.getLocacao());
 		clienteDTO.setImagemCliente(cliente.getImagem());
 		clienteDTO.setIdadeCliente(cliente.getIdade());
     	return clienteDTO;

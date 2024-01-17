@@ -20,13 +20,12 @@ public class Veiculo {
 	private String ano;
 	@Column(name = "montadora", length = 50, nullable = false)
 	private String montadora;
-	@Column(name = "status", length = 20, nullable = false)
-	private String status;
+	@Column(name = "locacao", nullable = false)
+	private Boolean locacao;
 	@Column(name = "imagem", length = 50, nullable = false)
 	private String imagem;
 	@Column(name = "categoria", length = 60, nullable = false)
 	private String categoria;
-	
 	public Long getId() {
 		return id;
 	}
@@ -57,11 +56,11 @@ public class Veiculo {
 	public void setMontadora(String montadora) {
 		this.montadora = montadora;
 	}
-	public String getStatus() {
-		return status;
+	public Boolean getLocacao() {
+		return locacao;
 	}
-	public void setStatus(String status) {
-		this.status = status;
+	public void setLocacao(Boolean locacao) {
+		this.locacao = locacao;
 	}
 	public String getImagem() {
 		return imagem;
@@ -75,5 +74,8 @@ public class Veiculo {
 	public void setCategoria(String categoria) {
 		this.categoria = categoria;
 	}
+	
+	
+	
 
 }

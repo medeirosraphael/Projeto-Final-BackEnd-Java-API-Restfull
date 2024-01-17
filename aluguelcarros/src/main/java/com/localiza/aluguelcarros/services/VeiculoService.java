@@ -27,7 +27,7 @@ public class VeiculoService {
 		veiculo.setModelo(veiculoDTO.getModeloVeiculo());
 		veiculo.setAno(veiculoDTO.getAnoVeiculo());
 		veiculo.setMontadora(veiculoDTO.getMontadoraVeiculo());
-		veiculo.setStatus(veiculoDTO.getStatusVeiculo());
+		veiculo.setLocacao(veiculoDTO.getLocacaoVeiculo() == "SIM"? true : false);
 		veiculo.setImagem(veiculoDTO.getImagemVeiculo());
 		veiculo.setCategoria(veiculoDTO.getCategoriaVeiculo());
 		veiculoRepository.save(veiculo);		
@@ -43,7 +43,7 @@ public class VeiculoService {
 			veiculoDTO.setModeloVeiculo(veiculo.getModelo());
 			veiculoDTO.setAnoVeiculo(veiculo.getAno());
 			veiculoDTO.setMontadoraVeiculo(veiculo.getMontadora());
-			veiculoDTO.setStatusVeiculo(veiculo.getStatus());
+			veiculoDTO.setLocacaoVeiculo(veiculo.getLocacao()? "Sim": "Não");
 			veiculoDTO.setImagemVeiculo(veiculo.getImagem());
 			veiculoDTO.setCategoriaVeiculo(veiculo.getCategoria());
 			listaDTO.add(veiculoDTO);
@@ -75,7 +75,7 @@ public class VeiculoService {
 		veiculoDTO.setModeloVeiculo(veiculo.getModelo());
 		veiculoDTO.setAnoVeiculo(veiculo.getAno());
 		veiculoDTO.setMontadoraVeiculo(veiculo.getMontadora());
-		veiculoDTO.setStatusVeiculo(veiculo.getStatus());
+		veiculoDTO.setLocacaoVeiculo(veiculo.getLocacao()? "Sim": "Não");
 		veiculoDTO.setImagemVeiculo(veiculo.getImagem());
 		veiculoDTO.setCategoriaVeiculo(veiculo.getCategoria());
     	return veiculoDTO;

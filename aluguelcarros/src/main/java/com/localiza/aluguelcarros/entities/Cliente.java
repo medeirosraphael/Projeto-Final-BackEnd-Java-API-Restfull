@@ -20,8 +20,6 @@ public class Cliente {
 	private String telefone;
 	@Column(name = "endereço", length = 100, nullable = false)
 	private String endereço;
-	@Column(name = "locacao", length = 100, nullable = false)
-	private String locacao;
 	@Column(name = "imagem", length = 100, nullable = false)
 	private String imagem;
 	@Column(name = "idade", length = 100, nullable = false)
@@ -58,12 +56,6 @@ public class Cliente {
 	public void setEndereço(String endereço) {
 		this.endereço = endereço;
 	}
-	public String getLocacao() {
-		return locacao;
-	}
-	public void setLocacao(String locacao) {
-		this.locacao = locacao;
-	}
 	public String getImagem() {
 		return imagem;
 	}
@@ -77,5 +69,7 @@ public class Cliente {
 		this.idade = idade;
 	}
 	
+	
+
 
 }

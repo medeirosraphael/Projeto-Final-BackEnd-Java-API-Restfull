@@ -59,7 +59,7 @@ private List<VeiculoDTO> lista;
 				dados.add("Modelo do Veiculo: "+veiculoDTO.getModeloVeiculo() + "\n");
 				dados.add("Ano do Veiculo: "+veiculoDTO.getAnoVeiculo() + "\n");
 				dados.add("Montadora do Veiculo: "+veiculoDTO.getMontadoraVeiculo() + "\n");
-				dados.add("Status do Veiculo: "+veiculoDTO.getStatusVeiculo() + "\n");
+				dados.add("Status do Veiculo: "+veiculoDTO.getLocacaoVeiculo() + "\n");
 				dados.add("Categoria do Veiculo: "+veiculoDTO.getCategoriaVeiculo() + "\n");
 				dados.setSpacingAfter(5);
 				documento.add(dados);
